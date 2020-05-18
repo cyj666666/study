@@ -1,6 +1,4 @@
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
+package gogogo.单例;
 
 public class Test1 {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package gogogo.单例;
+
 /**
  * 在内部类被加载和创建时，才会创建instance实例
  */

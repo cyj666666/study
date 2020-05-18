@@ -1,3 +1,5 @@
+package gogogo.单例;
+
 import java.io.IOException;
 import java.util.Properties;
 
@@ -12,7 +14,7 @@ public class Singleton3 {
     static {
         try {
             Properties pro = new Properties();
-            pro.load(Singleton3.class.getResourceAsStream("single.properties"));
+            pro.load(Singleton3.class.getResourceAsStream("singleton/single.properties"));
             INSTANCE = new Singleton3(pro.getProperty("name"));
         } catch (IOException e) {
             throw new RuntimeException(e);

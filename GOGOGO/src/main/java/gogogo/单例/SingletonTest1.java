@@ -1,3 +1,5 @@
+package gogogo.单例;
+
 public class SingletonTest1 {
     public static void main(String[] args) {
         System.out.println(Singleton1.INSTANCE);

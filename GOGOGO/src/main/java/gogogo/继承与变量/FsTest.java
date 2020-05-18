@@ -1,4 +1,4 @@
-package fs;
+package gogogo.继承与变量;
 
 public class FsTest {
     public static void main(String[] args) {

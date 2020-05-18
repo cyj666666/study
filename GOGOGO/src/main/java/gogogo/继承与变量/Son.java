@@ -1,6 +1,4 @@
-package fs;
-
-import fs.Father;
+package gogogo.继承与变量;
 
 public class Son extends Father {
     private int i = test();

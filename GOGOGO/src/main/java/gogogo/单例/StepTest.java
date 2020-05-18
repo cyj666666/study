@@ -1,3 +1,5 @@
+package gogogo.单例;
+
 import org.junit.Test;
 
 /**

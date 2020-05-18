@@ -1,4 +1,4 @@
-package fs;
+package gogogo.继承与变量;
 
 /**
  * 初始化 父类-》子类-》对象。。。

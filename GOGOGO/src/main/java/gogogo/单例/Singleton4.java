@@ -1,3 +1,4 @@
+package gogogo.单例;
 
 public class Singleton4 {
     private static Singleton4 INSTANCE;

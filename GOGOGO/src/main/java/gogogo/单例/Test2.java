@@ -1,3 +1,5 @@
+package gogogo.单例;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.util.stream.LongStream;
