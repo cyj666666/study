@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97c1b91f-39d6-4b9f-b8d6-a9aafd40070d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/公平锁非公平锁/ReentranSynchronizedDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/公平锁非公平锁/公平非公平锁" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/ReentrantReadWriteLockDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/ReentrantReadWriteLockDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/独占锁共享锁互斥锁" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/自旋锁/SpinLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/自旋锁/自旋锁" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\apache-maven-3.6.1\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codes\study\GOGOGO\src\main\java\gogogo\独占锁共享锁互斥锁" />
+      <recent name="D:\codes\study\GOGOGO\src\main\java\gogogo\cas_ABA问题" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReentrantReadWriteLockDemo2">
+    <configuration name="ABADemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gogogo.cas_ABA问题.ABADemo" />
+      <module name="GOGOGO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gogogo.cas_ABA问题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentranSynchronizedDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gogogo.公平锁非公平锁.ReentranSynchronizedDemo1" />
+      <module name="GOGOGO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gogogo.公平锁非公平锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantReadWriteLockDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gogogo.独占锁共享锁互斥锁.ReentrantReadWriteLockDemo1" />
+      <module name="GOGOGO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gogogo.独占锁共享锁互斥锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantReadWriteLockDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gogogo.独占锁共享锁互斥锁.ReentrantReadWriteLockDemo2" />
+      <module name="GOGOGO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gogogo.独占锁共享锁互斥锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpinLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gogogo.自旋锁.SpinLockDemo" />
+      <module name="GOGOGO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gogogo.自旋锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReentrantReadWriteLockDemo2" />
+        <item itemvalue="Application.ReentrantReadWriteLockDemo1" />
+        <item itemvalue="Application.SpinLockDemo" />
+        <item itemvalue="Application.ReentranSynchronizedDemo1" />
+        <item itemvalue="Application.ABADemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97c1b91f-39d6-4b9f-b8d6-a9aafd40070d" name="Default Changelist" comment="" />
+      <created>1589796435092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589796435092</updated>
+      <workItem from="1589796437749" duration="23499000" />
+    </task>
+    <task id="LOCAL-00001" summary="clean code">
+      <created>1589797127217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589797127217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="280" y="4" key="#Project_Structure" timestamp="1589796452582">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1589796452582" />
+    <state x="545" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589817323373">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="545" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1589817323373" />
+    <state x="605" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1589817886188">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1589817886188" />
+    <state x="279" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589822304858">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="279" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1589822304858" />
+    <state x="398" y="0" key="CommitChangelistDialog2" timestamp="1589797125856">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="398" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1589797125856" />
+    <state width="1557" height="392" key="GridCell.Tab.0.bottom" timestamp="1589825468684">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="392" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589825468684" />
+    <state width="1557" height="392" key="GridCell.Tab.0.center" timestamp="1589825468683">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="392" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589825468683" />
+    <state width="1557" height="392" key="GridCell.Tab.0.left" timestamp="1589825468683">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="392" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589825468683" />
+    <state width="1557" height="392" key="GridCell.Tab.0.right" timestamp="1589825468684">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="392" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589825468684" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1589813412882">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589813412882" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1589813412882">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589813412882" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1589813412882">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589813412882" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1589813412882">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589813412882" />
+    <state x="330" y="84" key="Maven.ArtifactSearchDialog" timestamp="1589796893191">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="84" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1589796893191" />
+    <state x="614" y="363" key="ReplaceDuplicatesPrompt" timestamp="1589822691423">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="614" y="363" key="ReplaceDuplicatesPrompt/0.0.1600.860@0.0.1600.860" timestamp="1589822691423" />
+    <state x="301" y="74" key="SettingsEditor" timestamp="1589825793693">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1589825793693" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1589797128537">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589797128537" />
+    <state x="296" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589821022154">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="296" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1589821022154" />
+    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589797110242">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1589797110242" />
+    <state x="530" y="177" key="extract.method.dialog" timestamp="1589822688011">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="extract.method.dialog/0.0.1600.860@0.0.1600.860" timestamp="1589822688011" />
+    <state x="174" y="90" key="new project wizard" timestamp="1589796755667">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="174" y="90" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1589796755667" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1589821079396">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1589821079396" />
+  </component>
+</project>
