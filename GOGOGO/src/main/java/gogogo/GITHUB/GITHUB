@@ -1,0 +1,7 @@
+git remote rm origin
+
+git remote add origin https://github.com/cyj666666/study.git 本地项目加入remote库repostory
+
+git clone https://github.com/cyj666666/SPC.git
+
+git@github.com:cyj666666/springCloud.git

@@ -1,0 +1,26 @@
+阻塞队列运用场景：
+1、生产者消费者模式
+
+    before：syn  wait notify
+
+    after: lock await  signal  ==> Lock和Condition配合使用，实现等待+唤醒
+
+    Lock和synchronized有何区别
+    1、原石构成
+    synchronized 关键字，jvm层面
+    Lock 具体类，API层面，juc包里的
+    2、使用方法
+    synchronized 无需手动释放锁
+    Lock 需要手动释放
+    3、等待是否中断
+    synchronized 不可中断
+    Lock可以中断 ==》tryLock  + lockInterruptibly
+    4、是否公平
+    synchronized 非公平锁
+    Lock 默认非公平
+    5、是否可以绑定多个condition
+    synchronized 不行==》唤醒一个或者多个
+    ReentrantLock ==》 可以精确唤醒，分组唤醒
+2、线程池
+
+3、消息中间件

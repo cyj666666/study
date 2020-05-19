@@ -1,0 +1,10 @@
+循环屏障
+加法，集齐七龙珠
+人到齐了，开会
+
+
+CompletableFuture supplyAsync  thenApply
+既然说到线程，那么就是Runnable、Thread、Callable三种方式 Runnable、Thread没有返回值、也无法抛出异常，
+即使抛出异常，主线程也无法捕获。所以就采用Callable的方式
+
+
