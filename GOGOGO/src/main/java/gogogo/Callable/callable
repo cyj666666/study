@@ -1,0 +1,11 @@
+CompletableFuture supplyAsync  thenApply
+既然说到线程，那么就是Runnable、Thread、Callable三种方式 Runnable、Thread没有返回值、也无法抛出异常，
+即使抛出异常，主线程也无法捕获。所以就采用Callable的方式
+
+Runnable和callable的区别
+1、返回值  无  有
+2、抛异常  否  是
+3、实现方法名不一样  run()  call()
+
+Thread thread = new Thread(new FutureTask<>(new Callable<>()));
+thread.start();

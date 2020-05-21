@@ -7,11 +7,11 @@ import java.util.concurrent.atomic.AtomicReference;
  * @Date: 2020/5/18 22:04
  */
 public class SpinLockDemo {
-    AtomicReference<Thread> atomicReference = new AtomicReference<>();
+    AtomicReference<Integer> atomicReference = new AtomicReference<>();
 
     public void myLock() {
         Thread currentThread = Thread.currentThread();
-        while (!atomicReference.compareAndSet(null, currentThread)) {
+        while (!atomicReference.compareAndSet(null, 6)) {
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
@@ -24,7 +24,7 @@ public class SpinLockDemo {
 
     public void myUnlock() {
         Thread currentThread = Thread.currentThread();
-        atomicReference.compareAndSet(currentThread, null);
+        atomicReference.compareAndSet(6, null);
         System.out.println("当前线程：\t" + currentThread.getName() + "\t 解除锁");
     }
 

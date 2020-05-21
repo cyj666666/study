@@ -19,11 +19,11 @@ public class BlockingQueueDemmo1 {
 
         BlockingQueue syncQueue = new SynchronousQueue();
 
-        syncQueue(syncQueue);//定制同步队列
+//        syncQueue(syncQueue);//定制同步队列
 
 
 //        putAndTake(blockingQueue);
-//        offerAndPoll(blockingQueue);
+        offerAndPoll(blockingQueue);
 //        exceptionType(blockingQueue);
 
     }

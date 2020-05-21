@@ -1,0 +1,11 @@
+线程池的底层类：
+ThreadPoolExcutor
+
+线程池的拒绝策略：
+1、AbortPolicy  拒绝，抛异常
+2、CallerRunsPolicy 调用者运行策略。回退到调用者
+3、DiscardOldestPolicy  舍弃等待时间最长的
+4、DiscaedPolicy 直接舍弃
+以上四种策略，均实现了RejectExcecutionHandler接口
+
+

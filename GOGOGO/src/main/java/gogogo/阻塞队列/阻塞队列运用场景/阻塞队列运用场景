@@ -20,7 +20,8 @@
     Lock 默认非公平
     5、是否可以绑定多个condition
     synchronized 不行==》唤醒一个或者多个
-    ReentrantLock ==》 可以精确唤醒，分组唤醒
+    ReentrantLock ==》 可以精确唤醒，分组唤醒 ==》A->B->C->A->B->C 挨个唤醒，类似排班值日
+
 2、线程池
 
 3、消息中间件

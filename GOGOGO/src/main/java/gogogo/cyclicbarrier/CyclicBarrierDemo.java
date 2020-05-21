@@ -16,7 +16,7 @@ public class CyclicBarrierDemo {
 
         for (int i = 0; i < 7; i++) {
             new Thread(() -> {
-                System.out.println(Thread.currentThread().getName() + "\t开始执行\t" + cyclicBarrier.getNumberWaiting());
+                System.out.println(Thread.currentThread().getName() + "\t开始执行\t");
                 try {
                     cyclicBarrier.await();
                 } catch (InterruptedException e) {
