@@ -13,31 +13,33 @@ import java.util.concurrent.*;
 
 
 public class ThreadPoolDemo1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
 //        ExecutorService executorService = new ThreadPoolExecutor
 //                (8, 10, 60, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(5));
 
 //        ExecutorService executorService = Executors.newFixedThreadPool(5);
 //        ExecutorService executorService = Executors.newSingleThreadExecutor();
         ExecutorService executorService = Executors.newCachedThreadPool();
-        try {
-            for (int i = 0; i < 10; i++) {
-                int finalI = i;
-                executorService.execute(() -> {
-                    MyUtils.recordLog(String.valueOf(finalI));
-
-                });
-//                try {
-//                    Thread.sleep(30);
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            executorService.shutdown();
-        }
+//        try {
+//            for (int i = 0; i < 10; i++) {
+//                int finalI = i;
+//                executorService.execute(() -> {
+//                    MyUtils.recordLog(String.valueOf(finalI));
+//
+//                });
+////                try {
+////                    Thread.sleep(30);
+////                } catch (InterruptedException e) {
+////                    e.printStackTrace();
+////                }
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        } finally {
+//            executorService.shutdown();
+//        }
+//        逐个处理(executorService);
+        增强For循环处理(executorService);
 
 
     }
@@ -70,7 +72,7 @@ public class ThreadPoolDemo1 {
         System.out.println("over1111111111");
     }
 
-    private static void 增强For循环处理(ExecutorService executorService) {
+    private static void 增强For循环处理(ExecutorService executorService) throws ExecutionException, InterruptedException {
         List<Future<Integer>> futureList = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             int finalI = i;
@@ -79,24 +81,37 @@ public class ThreadPoolDemo1 {
                 if (finalI == 2) {
                     throw new RuntimeException("222222Exception");
                 }
-//                MyUtils.recordLog(String.valueOf(finalI)+"结束");
+                MyUtils.recordLog(String.valueOf(finalI)+"结束");
                 return finalI;
             });
             futureList.add(future);
         }
         System.out.println("size:" + futureList.size());
         for (Future<Integer> fu : futureList) {
-            try {
+//            try {
                 System.out.println(fu.get());
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } catch (ExecutionException e) {
-                e.printStackTrace();
-            }
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            } catch (ExecutionException e) {
+//                e.printStackTrace();
+//            }
         }
     }
 
-    private static void 逐个处理(List<Future<Integer>> futureList) {
+    private static void 逐个处理(ExecutorService executorService) {
+
+        List<Future<Integer>> futureList = new ArrayList<>();
+        for (int i = 0; i < 5; i++) {
+            int finalI = i;
+            Future<Integer> future = executorService.submit(() -> {
+                MyUtils.recordLog(String.valueOf(finalI));
+                if (finalI == 2) {
+                    throw new RuntimeException("222222Exception");
+                }
+                return finalI;
+            });
+            futureList.add(future);
+        }
         try {
             System.out.println(futureList.get(0).get());
             System.out.println(futureList.get(1).get());

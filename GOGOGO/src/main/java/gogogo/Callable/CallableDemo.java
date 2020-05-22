@@ -23,20 +23,26 @@ class Thread3 implements Callable<Integer> {
 
 
 public class CallableDemo {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
         int resultTemp = 1025;
 //        FutureTask<Integer> futureTask = new FutureTask<>(new Thread3());
         FutureTask<Integer> futureTask = new FutureTask<>(() -> {
             MyUtils.recordLog("call.....");
-            Thread.sleep(3000);
-            return 1024;
+            throw new RuntimeException("121212312");
+//            Thread.sleep(3000);
+//            return 1024;
         });
 
-        new Thread(() -> {
-            futureGetResult(resultTemp, futureTask);
-        }, "BBB").start();
+//        new Thread(() -> {
+//                futureGetResult(resultTemp, futureTask);
+//
+//        }, "BBB").start();
 
         new Thread(futureTask, "AAA").start();
+
+        MyUtils.recordLog("result：" + (futureTask.get() + resultTemp));
+
+        System.out.println("44444444444444444");
 
 
 //        while (!futureTask.isDone()) {
@@ -45,16 +51,12 @@ public class CallableDemo {
 //        }
     }
 
-    private static void futureGetResult(int resultTemp, FutureTask<Integer> futureTask) {
-        try {
-            MyUtils.recordLog("开始计算。。。。。");
-            MyUtils.recordLog("result：" + (futureTask.get() + resultTemp));
-            System.out.println();//尽量放在最后，没毛病
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
+    private static void futureGetResult(int resultTemp, FutureTask<Integer> futureTask) throws ExecutionException, InterruptedException {
+
+        MyUtils.recordLog("开始计算。。。。。");
+        MyUtils.recordLog("result：" + (futureTask.get() + resultTemp));
+        System.out.println();//尽量放在最后，没毛病
+
     }
 
 

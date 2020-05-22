@@ -1,0 +1,10 @@
+execute(ForkJoinTask) 异步执行tasks，无返回值
+invoke(ForkJoinTask) 有Join, tasks会被同步到主进程
+submit(ForkJoinTask) 异步执行，且带Task返回值，可通过task.get 实现同步到主线程
+
+需要特别注意的是：
+
+ForkJoinPool
+1、使用submit 或 invoke 提交的区别：invoke是同步执行，调用之后需要等待任务完成，才能执行后面的代码；submit是异步执行，只有在Future调用get的时候会阻塞。
+2、这里继承的是RecursiveTask，还可以继承RecursiveAction。前者适用于有返回值的场景，而后者适合于没有返回值的场景
+3、这一点是最容易忽略的地方，其实这里执行子任务调用fork方法并不是最佳的选择，最佳的选择是invokeAll方法。

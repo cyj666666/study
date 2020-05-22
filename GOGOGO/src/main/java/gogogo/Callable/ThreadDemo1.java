@@ -33,7 +33,7 @@ public class ThreadDemo1 {
             System.out.println("3333");
         });
         thread3.start();
-
+        System.out.println("66666666666");
     }
 
 }

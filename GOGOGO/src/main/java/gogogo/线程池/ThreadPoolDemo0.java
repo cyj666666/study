@@ -37,8 +37,8 @@ public class ThreadPoolDemo0 {
             return 1024;
         });
 
-        System.out.println(future2.get());
         System.out.println(future1.get());
+        System.out.println(future2.get());
 
         System.out.println("11111");
         executorService.shutdown();

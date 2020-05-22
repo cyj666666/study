@@ -13,7 +13,7 @@ public class MyUtils {
     }
 
     private static String getLocaldateTimeNow() {
-        return DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss:SSS").format(LocalDateTime.now());
+        return DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss:SSSS").format(LocalDateTime.now());
     }
 
 
