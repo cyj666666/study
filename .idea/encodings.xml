@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/order/AbsFactory.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/order/BJFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/pizza/BJCheesePizza.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/TeacherDao.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

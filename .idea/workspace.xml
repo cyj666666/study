@@ -19,19 +19,222 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c1b91f-39d6-4b9f-b8d6-a9aafd40070d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/公平锁非公平锁/ReentranSynchronizedDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/公平锁非公平锁/公平非公平锁" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/ReentrantReadWriteLockDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/ReentrantReadWriteLockDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/独占锁共享锁互斥锁" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/自旋锁/SpinLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/自旋锁/自旋锁" afterDir="false" />
+    <list default="true" id="97c1b91f-39d6-4b9f-b8d6-a9aafd40070d" name="Default Changelist" comment="clean code">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/test/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/cas_ABA问题/ABA" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/cas_ABAQuestion/ABA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/cas_ABA问题/ABADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/cas_ABAQuestion/ABADemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/cas_ABA问题/AtomicReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/cas_ABAQuestion/AtomicReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/公平锁非公平锁/ReentranSynchronizedDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/fairUnfairLock/ReentranSynchronizedDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/公平锁非公平锁/公平非公平锁" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/fairUnfairLock/公平非公平锁" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Singleton1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Singleton2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Singleton3.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Singleton3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Singleton4.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Singleton4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Singleton4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Singleton4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Singleton5.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Singleton5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Singleton5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Singleton5Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/SingletonTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/SingletonTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/StepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/StepTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/单例/single.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/singleton/single.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/ReentrantReadWriteLockDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/reEntranLock/ReentrantReadWriteLockDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/ReentrantReadWriteLockDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/reEntranLock/ReentrantReadWriteLockDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/独占锁共享锁互斥锁/独占锁共享锁互斥锁" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/reEntranLock/独占锁共享锁互斥锁" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池/ThreadPool" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/threadpool/ThreadPool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池/ThreadPool.doc" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/threadpool/ThreadPool.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池/ThreadPoolDemo0.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/threadpool/ThreadPoolDemo0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池/ThreadPoolDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/threadpool/ThreadPoolDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池_手写/ThreadPoolHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/threadpool_shouxie/ThreadPoolHander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池_手写/最优参数" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/threadpool_shouxie/最优参数" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池_死锁定位/DeadLockDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/thread_deadlock/DeadLockDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池_死锁定位/DeadLockDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/thread_deadlock/DeadLockDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池_死锁定位/死锁定位" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/thread_deadlock/死锁定位" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/线程池_死锁定位/死锁定位.docx" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/thread_deadlock/死锁定位.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/继承与变量/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/extendsAndValue/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/继承与变量/FsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/extendsAndValue/FsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/继承与变量/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/extendsAndValue/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/自旋锁/SpinLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/SpinLock/SpinLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/自旋锁/自旋锁" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/SpinLock/自旋锁" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/AbstractHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/AbstractHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/CommonHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/CommonHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/improve/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/improve/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/improve/CommonHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/improve/CommonHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/improve/HighBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/improve/HighBuilding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/improve/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/improve/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/improve/HouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/improve/HouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/improve/HouseDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/improve/HouseDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/improve/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/improve/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/builder/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/builder/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/order/AbsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/order/AbsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/order/BJFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/order/BJFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/order/LDFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/order/LDFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/order/OrderPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/order/OrderPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/order/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/pizza/BJCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/pizza/BJCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/pizza/BJPepperPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/pizza/BJPepperPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/pizza/LDCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/pizza/LDCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/pizza/LDPepperPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/pizza/LDPepperPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/absfactory/pizzastore/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/absfactory/pizzastore/pizza/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/order/BJOrderPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/order/BJOrderPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/order/LDOrderPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/order/LDOrderPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/order/OrderPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/order/OrderPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/order/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/pizza/BJCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/pizza/BJCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/pizza/BJPepperPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/pizza/BJPepperPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/pizza/LDCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/pizza/LDCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/pizza/LDPepperPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/pizza/LDPepperPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/factorymethod/pizzastore/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/factorymethod/pizzastore/pizza/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/order/OrderPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/order/OrderPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/order/OrderPizza2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/order/OrderPizza2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/order/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/order/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/order/SimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/pizza/CheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/pizza/CheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/pizza/GreekPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/pizza/GreekPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/pizza/PepperPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/pizza/PepperPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/factory/simplefactory/pizzastore/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/factory/simplefactory/pizzastore/pizza/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/CurrentConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/CurrentConditions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/improve/BaiduSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/improve/BaiduSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/improve/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/improve/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/improve/CurrentConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/improve/CurrentConditions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/improve/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/improve/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/improve/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/improve/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/improve/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/improve/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/observer/improve/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/observer/improve/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/prototype/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/prototype/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/prototype/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/prototype/deepclone/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/prototype/deepclone/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/prototype/deepclone/DeepCloneableTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/prototype/deepclone/DeepCloneableTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/prototype/deepclone/DeepProtoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/prototype/deepclone/DeepProtoType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/prototype/improve/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/prototype/improve/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/prototype/improve/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/prototype/improve/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/prototype/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/prototype/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/cglib/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/cglib/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/cglib/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/TeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/cglib/asm-commons.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/asm-commons.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/cglib/asm-tree.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/asm-tree.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/cglib/asm.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/asm.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/cglib/cglib-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/cglib-2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/cglib/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/cglib/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/dynamic/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/dynamic/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/dynamic/ITeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/dynamic/ITeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/dynamic/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/dynamic/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/dynamic/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/dynamic/TeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/dynamic/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/dynamic/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/staticproxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/staticproxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/staticproxy/ITeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/staticproxy/ITeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/staticproxy/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/staticproxy/TeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/staticproxy/TeacherDaoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/staticproxy/TeacherDaoProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/proxy/staticproxy/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/proxy/staticproxy/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/singleton/type1/SingletonTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/singleton/type1/SingletonTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/singleton/type2/SingletonTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/singleton/type2/SingletonTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/singleton/type3/SingletonTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/singleton/type3/SingletonTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/singleton/type4/SingletonTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/singleton/type4/SingletonTest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/singleton/type6/SingletonTest06.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/singleton/type6/SingletonTest06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/singleton/type7/SingletonTest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/singleton/type7/SingletonTest07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/singleton/type8/SingletonTest08.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/singleton/type8/SingletonTest08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/PekingDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/PekingDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/ToyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/ToyDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/WildDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/WildDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/BadFlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/BadFlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/FlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/GoodFlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/GoodFlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/NoFlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/NoFlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/PekingDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/PekingDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/QuackBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/ToyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/ToyDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/WildDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/WildDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/improve/duck.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/improve/duck.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/strategy/strategy.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/strategy/strategy.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/Fail.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/Fail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/ObjectStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/ObjectStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/Success.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/Success.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/Wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/Woman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/newfile.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/newfile.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/visitor/singer.cld" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/visitor/singer.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/依赖倒转_setter传递Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/YiLaiDaoZhuan_setter_ChuanDiDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/依赖倒转_接口传递Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/YilaiDaozhuan_jieKouChuanDi_Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/依赖倒转_构造器传递Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/Yilaidaozhuan_GouZaoQiChuandiDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/依赖倒转模式.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/Yilaidaozhuan_model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/设计模式/设计模式" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/designModel/设计模式" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/api操作/BlockingQueueDemmo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/api/BlockingQueueDemmo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/api操作/阻塞队列" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/api/阻塞队列" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/api操作/阻塞队列.doc" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/api/阻塞队列.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/阻塞队列运用场景/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/stations/BlockingQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/阻塞队列运用场景/BlockingQueueDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/stations/BlockingQueueDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/阻塞队列运用场景/MutiConditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/stations/MutiConditionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/阻塞队列运用场景/TraditionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/stations/TraditionalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/阻塞队列运用场景/阻塞队列运用场景" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/stations/阻塞队列运用场景" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/阻塞队列/阻塞队列运用场景/阻塞队列运用场景.doc" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/gogogo/blockingQueue/stations/阻塞队列运用场景.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/工厂模式/factory/IFoodFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/factory_model/factory/IFoodFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/工厂模式/factory/KFCFoodFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/factory_model/factory/KFCFoodFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/工厂模式/factory/MCFoodFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/factory_model/factory/MCFoodFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/工厂模式/object/IChicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/factory_model/object/IChicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/工厂模式/object/ICoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/factory_model/object/ICoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/工厂模式/object/MCChicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/GOGOGO/src/main/java/practise/factory_model/object/MCChicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/cas_ABA问题/ABADemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/cas_ABA问题/AtomicReferenceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/cas_ABA问题/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/cas_ABA问题/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/公平锁非公平锁/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/公平锁非公平锁/ReentranSynchronizedDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton4Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton5$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Singleton5Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/SingletonTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/StepTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/单例/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/独占锁共享锁互斥锁/MyCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/独占锁共享锁互斥锁/MyCache2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/独占锁共享锁互斥锁/ReentrantReadWriteLockDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/独占锁共享锁互斥锁/ReentrantReadWriteLockDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/继承与变量/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/继承与变量/FsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/继承与变量/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOGOGO/target/classes/gogogo/自旋锁/SpinLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,16 +243,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\software\apache-maven-3.6.1\maven-repository" />
+        <option name="localRepository" value="C:\cyj\software\apache-maven-3.6.3\idea_respostory" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../software/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="userSettingsFile" value="C:\cyj\software\apache-maven-3.6.3\conf\settings_idea.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1dASMAp4GsITANYryPVt1fUg5oj" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -60,6 +269,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -67,9 +277,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -77,13 +287,13 @@
       <recent name="D:\codes\study\GOGOGO\src\main\java\gogogo\cas_ABA问题" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantReadWriteLockDemo2">
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="ABADemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gogogo.cas_ABA问题.ABADemo" />
+      <option name="MAIN_CLASS_NAME" value="gogogo.cas_ABAQuestion.ABADemo" />
       <module name="GOGOGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gogogo.cas_ABA问题.*" />
+          <option name="PATTERN" value="gogogo.cas_ABAQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,24 +302,11 @@
       </method>
     </configuration>
     <configuration name="ReentranSynchronizedDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gogogo.公平锁非公平锁.ReentranSynchronizedDemo1" />
+      <option name="MAIN_CLASS_NAME" value="gogogo.fairUnfairLock.ReentranSynchronizedDemo1" />
       <module name="GOGOGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gogogo.公平锁非公平锁.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantReadWriteLockDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gogogo.独占锁共享锁互斥锁.ReentrantReadWriteLockDemo1" />
-      <module name="GOGOGO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gogogo.独占锁共享锁互斥锁.*" />
+          <option name="PATTERN" value="gogogo.fairUnfairLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +315,11 @@
       </method>
     </configuration>
     <configuration name="ReentrantReadWriteLockDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gogogo.独占锁共享锁互斥锁.ReentrantReadWriteLockDemo2" />
+      <option name="MAIN_CLASS_NAME" value="gogogo.reEntranLock.ReentrantReadWriteLockDemo2" />
       <module name="GOGOGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gogogo.独占锁共享锁互斥锁.*" />
+          <option name="PATTERN" value="gogogo.reEntranLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +328,24 @@
       </method>
     </configuration>
     <configuration name="SpinLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gogogo.自旋锁.SpinLockDemo" />
+      <option name="MAIN_CLASS_NAME" value="gogogo.SpinLock.SpinLockDemo" />
       <module name="GOGOGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gogogo.自旋锁.*" />
+          <option name="PATTERN" value="gogogo.SpinLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test1" />
+      <module name="GOGOGO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReentrantReadWriteLockDemo2" />
-        <item itemvalue="Application.ReentrantReadWriteLockDemo1" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.SpinLockDemo" />
         <item itemvalue="Application.ReentranSynchronizedDemo1" />
         <item itemvalue="Application.ABADemo" />
+        <item itemvalue="Application.ReentrantReadWriteLockDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +374,10 @@
       <option name="presentableId" value="Default" />
       <updated>1589796435092</updated>
       <workItem from="1589796437749" duration="23499000" />
+      <workItem from="1591866355222" duration="3970000" />
+      <workItem from="1591876582705" duration="901000" />
+      <workItem from="1592471149856" duration="1861000" />
+      <workItem from="1592473115780" duration="1337000" />
     </task>
     <task id="LOCAL-00001" summary="clean code">
       <created>1589797127217</created>
@@ -188,6 +402,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -195,42 +410,53 @@
     <option name="LAST_COMMIT_MESSAGE" value="clean code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="280" y="4" key="#Project_Structure" timestamp="1589796452582">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="297" y="183" key="#Project_Structure" timestamp="1592473270958">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1589796452582" />
+    <state x="297" y="183" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1592473270958" />
     <state x="545" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589817323373">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="545" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1589817323373" />
-    <state x="605" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1589817886188">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="726" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1592473778277">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="605" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1589817886188" />
+    <state x="726" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592473778277" />
     <state x="279" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589822304858">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="279" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1589822304858" />
-    <state x="398" y="0" key="CommitChangelistDialog2" timestamp="1589797125856">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="478" y="0" width="1210" height="1003" key="CommitChangelistDialog2" timestamp="1592474412546">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="398" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1589797125856" />
-    <state width="1557" height="392" key="GridCell.Tab.0.bottom" timestamp="1589825468684">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="478" y="0" width="1210" height="1003" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592474412546" />
+    <state x="598" y="185" key="FileChooserDialogImpl" timestamp="1591866399857">
+      <screen x="0" y="0" width="1697" height="870" />
+    </state>
+    <state x="598" y="185" key="FileChooserDialogImpl/0.0.1697.870@0.0.1697.870" timestamp="1591866399857" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592474372231">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="392" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589825468684" />
-    <state width="1557" height="392" key="GridCell.Tab.0.center" timestamp="1589825468683">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592474372231" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592474372230">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="392" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589825468683" />
-    <state width="1557" height="392" key="GridCell.Tab.0.left" timestamp="1589825468683">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592474372230" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592474372226">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="392" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589825468683" />
-    <state width="1557" height="392" key="GridCell.Tab.0.right" timestamp="1589825468684">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592474372226" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592474372231">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="392" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589825468684" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592474372231" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1589813412882">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -247,18 +473,21 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589813412882" />
-    <state x="330" y="84" key="Maven.ArtifactSearchDialog" timestamp="1589796893191">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="396" y="102" key="Maven.ArtifactSearchDialog" timestamp="1592474177545">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="84" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1589796893191" />
+    <state x="396" y="102" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592474177545" />
     <state x="614" y="363" key="ReplaceDuplicatesPrompt" timestamp="1589822691423">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="614" y="363" key="ReplaceDuplicatesPrompt/0.0.1600.860@0.0.1600.860" timestamp="1589822691423" />
-    <state x="301" y="74" key="SettingsEditor" timestamp="1589825793693">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="536" y="227" key="SettingsEditor" timestamp="1592474460693">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1589825793693" />
+    <state x="319" y="18" key="SettingsEditor/0.0.1697.870@0.0.1697.870" timestamp="1591875860933" />
+    <state x="536" y="227" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592474460693" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1589797128537">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -267,21 +496,31 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="296" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1589821022154" />
-    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589797110242">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="713" y="414" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592471940632">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1589797110242" />
+    <state x="713" y="414" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592471940632" />
     <state x="530" y="177" key="extract.method.dialog" timestamp="1589822688011">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="extract.method.dialog/0.0.1600.860@0.0.1600.860" timestamp="1589822688011" />
-    <state x="174" y="90" key="new project wizard" timestamp="1589796755667">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="661" y="223" width="638" height="594" key="find.popup" timestamp="1592472802914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="223" width="638" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592472802914" />
+    <state x="185" y="91" key="new project wizard" timestamp="1591876084030">
+      <screen x="0" y="0" width="1697" height="870" />
     </state>
     <state x="174" y="90" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1589796755667" />
+    <state x="185" y="91" key="new project wizard/0.0.1697.870@0.0.1697.870" timestamp="1591876084030" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1589821079396">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1589821079396" />
+    <state x="681" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1592472863910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="263" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592472863910" />
   </component>
 </project>
