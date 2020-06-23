@@ -3,8 +3,8 @@ package gogogo.designModel.factory.absfactory.pizzastore.order;
 
 import gogogo.designModel.factory.absfactory.pizzastore.pizza.Pizza;
 
-//Ò»¸ö³éÏó¹¤³§Ä£Ê½µÄ³éÏó²ã(½Ó¿Ú)
+//ä¸€ä¸ªæŠ½è±¡å·¥å‚æ¨¡å¼çš„æŠ½è±¡å±‚(æ¥å£)
 public interface AbsFactory {
-    //ÈÃÏÂÃæµÄ¹¤³§×ÓÀàÀ´ ¾ßÌåÊµÏÖ
+    //è®©ä¸‹é¢çš„å·¥å‚å­ç±»æ¥ å…·ä½“å®ç°
     public Pizza createPizza(String orderType);
 }

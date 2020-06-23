@@ -24,6 +24,7 @@ public class Test2 {
         System.out.println(list);
         list = filterList(list);
         System.out.println(list);
+        System.out.println("你好");
 
 
     }

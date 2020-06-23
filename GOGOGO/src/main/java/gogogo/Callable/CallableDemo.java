@@ -40,11 +40,14 @@ public class CallableDemo {
 
         new Thread(futureTask, "AAA").start();
 
+
+        //此处跑出异常后，后面步骤就不执行了，并抛出异常到主线程
+
         MyUtils.recordLog("result：" + (futureTask.get() + resultTemp));
 
         System.out.println("44444444444444444");
 
-
+        //futureTask会阻塞main线程
 //        while (!futureTask.isDone()) {
 //            System.out.println("waiting......");
 //            Thread.sleep(1000);

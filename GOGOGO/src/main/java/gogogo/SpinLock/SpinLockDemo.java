@@ -7,11 +7,11 @@ import java.util.concurrent.atomic.AtomicReference;
  * @Date: 2020/5/18 22:04
  */
 public class SpinLockDemo {
-    AtomicReference<Integer> atomicReference = new AtomicReference<>();
+    AtomicReference<Thread> atomicReference = new AtomicReference<>();
 
-    public void myLock() {
+    public void myLock(Thread publicThread) {
         Thread currentThread = Thread.currentThread();
-        while (!atomicReference.compareAndSet(null, 6)) {
+        while (!atomicReference.compareAndSet(null, publicThread)) {
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
@@ -22,23 +22,24 @@ public class SpinLockDemo {
         System.out.println("当前线程：\t" + currentThread.getName() + "\t 获得了锁");
     }
 
-    public void myUnlock() {
+    public void myUnlock(Thread publicThread) {
         Thread currentThread = Thread.currentThread();
-        atomicReference.compareAndSet(6, null);
+        atomicReference.compareAndSet(publicThread, null);
         System.out.println("当前线程：\t" + currentThread.getName() + "\t 解除锁");
     }
 
 
     public static void main(String[] args) {
         SpinLockDemo spinLockDemo = new SpinLockDemo();
+        Thread mainThread = Thread.currentThread();
         new Thread(() -> {
-            spinLockDemo.myLock();
+            spinLockDemo.myLock(mainThread);
             try {
                 Thread.sleep(8000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            spinLockDemo.myUnlock();
+            spinLockDemo.myUnlock(mainThread);
         }, "T1").start();
 
         new Thread(() -> {
@@ -47,7 +48,7 @@ public class SpinLockDemo {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            spinLockDemo.myLock();
+            spinLockDemo.myLock(mainThread);
 
         }, "T2").start();
 

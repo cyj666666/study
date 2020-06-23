@@ -16,6 +16,7 @@ class Thread2 implements Runnable {
     @Override
     public void run() {
         System.out.println("222");
+        //该异常不会抛出到主线程，即不会影响主线程
         throw new RuntimeException();
     }
 }
