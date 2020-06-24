@@ -1,4 +1,4 @@
-package practise.syncThreadCode;
+package practise.syncThreadCode.completableFuture;
 
 import java.util.concurrent.CompletableFuture;
 

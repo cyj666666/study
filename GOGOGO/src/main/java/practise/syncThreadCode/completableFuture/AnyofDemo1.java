@@ -1,4 +1,4 @@
-package practise.syncThreadCode;
+package practise.syncThreadCode.completableFuture;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,8 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
+ * anyof:等待任意一个线程完成
+ *
  * @author yjcao
  * @date 2020/6/23 14:51
  */

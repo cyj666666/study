@@ -1,9 +1,11 @@
-package practise.syncThreadCode;
+package practise.syncThreadCode.completableFuture;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
+ * thenCombine 会把 两个 CompletionStage 的任务都执行完成后，
+ * 把两个任务的结果一块交给 thenCombine 来处理。
  * @author yjcao
  * @date 2020/6/23 11:08
  */

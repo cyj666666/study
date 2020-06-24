@@ -1,10 +1,13 @@
-package practise.syncThreadCode;
+package practise.syncThreadCode.completableFuture;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.function.*;
 
 /**
+ * 接收任务的处理结果，并消费处理，
+ * 重点：无返回结果。
+ *
  * @author yjcao
  * @date 2020/6/23 13:37
  */

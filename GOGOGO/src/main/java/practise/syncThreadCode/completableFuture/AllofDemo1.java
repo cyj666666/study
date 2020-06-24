@@ -1,8 +1,10 @@
-package practise.syncThreadCode;
+package practise.syncThreadCode.completableFuture;
 
 import java.util.concurrent.*;
 
 /**
+ * allof：等待所有线程都完成
+ *
  * @author yjcao
  * @date 2020/6/23 14:51
  */
